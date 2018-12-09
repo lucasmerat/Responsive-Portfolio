@@ -192,3 +192,45 @@ form {
 .container {
     position:relative;
 }
+
+/* media queries */
+@media screen and (max-width: 980px){
+    #content {
+    width: 66%;
+    margin: 21px 40px 100px 61px;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 1px solid #dddddd;
+    }
+
+    .nav-name {
+    margin-left: 52px;
+    margin-top: 0;
+    }
+
+    .nav-links {
+    margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #nav {
+        width: 120%;
+    }
+    #content {
+        width: 882px;
+        margin-left: 20px;
+    }
+    .nav-links {
+        margin-right: 66px;
+    }
+
+    .nav-name {
+        margin-left: 22px;
+    }
+}
+@media screen and (max-width: 640px){
+    body {
+        color:orange;
+    }
+}
