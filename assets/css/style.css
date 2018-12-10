@@ -196,20 +196,20 @@ form {
 /* media queries */
 @media screen and (max-width: 980px){
     #content {
-    width: 66%;
-    margin: 21px 40px 100px 61px;
-    background-color: white;
-    padding-bottom: 15px;
-    border: 1px solid #dddddd;
+        width: 66%;
+        margin: 21px 40px 100px 61px;
+        background-color: white;
+        padding-bottom: 15px;
+        border: 1px solid #dddddd;
     }
 
     .nav-name {
-    margin-left: 52px;
-    margin-top: 0;
+        margin-left: 52px;
+        margin-top: 0;
     }
 
     .nav-links {
-    margin-right: 40px;
+        ght: 40px;
     }
 }
 
@@ -230,7 +230,44 @@ form {
     }
 }
 @media screen and (max-width: 640px){
-    body {
-        color:orange;
+    .nav-name {
+        margin-left: 0;
+        width: 100%;
+        padding-bottom: 23px;
+    }
+    .nav-links {
+        width: 100%;
+        font-size: 1.5em;
+        margin-right: 0px;
+        justify-content:center;
+    }
+    .title-container {
+        width:100%;
+        display: flex;
+    }
+    .nav-name {
+        font-size: 3.5em;
+        display:flex;
+        justify-content: center;
+    }
+    #nav {
+        padding-top: 0px; 
+        padding-bottom:115px;
+        width: 100%
+        }
+    .nav-content {
+        width:100%;
+    }
+    #content {
+        margin-top: 20px;
+        width: 93%;        
+    }
+    hr {
+        margin:2px;
+    }
+    .headshot {
+        width: 550px;
+        height:500px;
+        margin-left: 21px;
     }
 }
