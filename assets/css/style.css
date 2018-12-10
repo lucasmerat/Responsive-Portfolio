@@ -92,6 +92,7 @@ form {
     background-color: white;
     padding-bottom: 15px;
     border: 1px solid #dddddd;
+    height:800px;
 }
 
 .section-label {
@@ -173,7 +174,7 @@ form {
 }
 
 /* Portfolio page */
-.text-block {
+.text-block1, .text-block2, .text-block3, .text-block4, .text-block5 {
     width: 220px;
     height: 40px;
     background-color:#4aaaa5;
@@ -182,11 +183,45 @@ form {
     justify-content: center;
 }
 
-.text-block > p {
+.text-block1, .text-block2, .text-block3, .text-block4, .text-block5  > p {
     color:white;
     text-align:center;
     vertical-align: middle;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container1, .container2, .container3, .container4, .container5 {
+    position: relative;
+}
+
+.text-block1 {
+    position: absolute;
+    top: 171px;
+    left: 15px;
+}
+
+.text-block2 {
+    position: absolute;
+    top: 171px;
+    left: 265px;
+}
+
+.text-block3 {
+    position: absolute;
+    top: 171px;
+    right: 225px;
+}
+
+.text-block4 {
+    position: absolute;
+    top: 410px;
+    left: 15px;
+}
+
+.text-block5 {
+    position: absolute;
+    top: 410px;
+    left: 265px;
 }
 
 .container {
@@ -201,6 +236,7 @@ form {
         background-color: white;
         padding-bottom: 15px;
         border: 1px solid #dddddd;
+        height: 800px;
     }
 
     .nav-name {
@@ -210,6 +246,12 @@ form {
 
     .nav-links {
         ght: 40px;
+    }
+    .text-block3 {
+        position: absolute;
+        top: 652px;
+        right: 412px;
+        z-index: 1;
     }
 }
 
@@ -269,5 +311,12 @@ form {
         width: 550px;
         height:500px;
         margin-left: 21px;
+    }
+    #content > p {
+        margin-left: 21px;
+    }
+    .container > img {
+        width: 500px;
+        height:450px;
     }
 }
