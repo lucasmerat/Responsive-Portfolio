@@ -94,7 +94,6 @@ form {
     background-color: white;
     padding-bottom: 15px;
     border: 1px solid #dddddd;
-    height:800px;
 }
 
 .section-label {
@@ -201,6 +200,7 @@ form {
 
 .container1, .container2, .container3, .container4, .container5 {
     position: relative;
+    display: inline-block;
 }
 
 .text-block1 {
@@ -212,26 +212,26 @@ form {
 .text-block2 {
     position: absolute;
     top: 171px;
-    left: 265px;
+    left: 15px;
 }
 
 .text-block3 {
     position: absolute;
-    top: 410px;
+    top: 171px;
     left: 15px;
 }
 
 .text-block4 {
     position: absolute;
-    top: 651px;
+    top: 171px;
     left: 15px;
     z-index: 1;
 }
 
 .text-block5 {
     position: absolute;
-    top: 410px;
-    left: 265px;
+    top: 171px;
+    left: 15px;
 }
 
 .container {
@@ -256,7 +256,6 @@ form {
         background-color: white;
         padding-bottom: 15px;
         border: 1px solid #dddddd;
-        height: 100s%;
     }
 
     .nav-name {
@@ -268,12 +267,7 @@ form {
     .nav-links {
         font-size: .8em;
     }
-    .text-block3 {
-        position: absolute;
-        top: 410px;
-        left: 15px;
-        z-index: 3;
-    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -293,7 +287,6 @@ form {
     #content {
         width: 882px;
         margin-left: 20px;
-        height: 100%;
         width:96%;
     }
 
@@ -316,32 +309,10 @@ form {
         width: 336px;
         }
 
-    .text-block1 {
-        top: 219px;
-        left: 15px;
-    }
-
-    .text-block2 {
-        top: 219px;
-        left: 381px;
-    }
-
-    .text-block3 {
-        top: 800px;
-        right: 386px;
-    }
-
-    .text-block4 {
-        top: 510px;
-    }
-
-    .text-block5 {
-        top: 510px;
-        left: 381px;
-    }
 
     .text-block1, .text-block2, .text-block3, .text-block4, .text-block5 {
         width: 336px;
+        top: 215px;
     }
 }
 @media screen and (max-width: 640px){
@@ -379,7 +350,6 @@ form {
     #content {
         margin-top: 20px;
         width: 93%; 
-        height: 106%;
     }
     hr {
         margin:2px;
@@ -398,33 +368,8 @@ form {
         width: 560px;
     }
 
-    .text-block1 {
-        top: 306px;
-        left: 15px;
-    }
-
-    .text-block2 {
-        top: 688px;
-        left: 15px;
-    }
-
-    .text-block3 {
-        top: 1066px;
-        left: 15px;
-    }
-
-    .text-block4 {
-        top: 1448px;
-        left:15px;
-    }
-
-    .text-block5 {
-        top: 1828px;
-        left: 15px;
-    }
-
     .text-block1, .text-block2, .text-block3, .text-block4, .text-block5 {
         width: 560px;
+        top: 310px;
     }
-
 }
