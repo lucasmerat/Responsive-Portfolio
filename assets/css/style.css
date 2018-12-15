@@ -44,7 +44,7 @@ form {
 /* Nav Bar */ 
 
 #nav {
-    height:75px;
+    height:70px;
     background-color: white;
     width:100%;
     padding-top: 3px;
@@ -72,7 +72,7 @@ form {
     display: inline-flex;
     list-style-type: none;
     margin-top:7px;
-    margin-right:180px;
+    margin-right:15px;
 }
 
 .nav-links > li {
@@ -100,7 +100,7 @@ form {
 .section-label {
     color: #4aaaa5;
     margin-left: 15px;
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -112,6 +112,8 @@ form {
     margin:15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    font-size: .75em;
+    line-height: 18px;
 }
 
 /* Footer section */ 
@@ -136,7 +138,7 @@ form {
     left: 0;
     bottom: 0;
     width: 100%;
-    z-index:0;
+    z-index:5;
 }
 
 #footer > p {
@@ -215,14 +217,15 @@ form {
 
 .text-block3 {
     position: absolute;
-    top: 171px;
-    right: 225px;
+    top: 410px;
+    left: 15px;
 }
 
 .text-block4 {
     position: absolute;
-    top: 410px;
+    top: 651px;
     left: 15px;
+    z-index: 1;
 }
 
 .text-block5 {
@@ -237,46 +240,75 @@ form {
 
 /* media queries */
 @media screen and (max-width: 980px){
+
+    .section-label {
+        font-size:22px;
+    }
+
+    .headshot {
+        height:100px;
+        width:100px;
+    }
+   
     #content {
-        width: 66%;
+        width: 52%;
         margin: 21px 40px 100px 61px;
         background-color: white;
         padding-bottom: 15px;
         border: 1px solid #dddddd;
-        height: 800px;
+        height: 100s%;
     }
 
     .nav-name {
-        margin-left: 52px;
+        margin-left: 60px;
         margin-top: 0;
+        font-size: 1.7em;
     }
 
     .nav-links {
-        ght: 40px;
+        font-size: .8em;
     }
     .text-block3 {
         position: absolute;
-        top: 652px;
-        right: 412px;
+        top: 410px;
+        left: 15px;
         z-index: 3;
     }
 }
 
 @media screen and (max-width: 768px){
+    .headshot {
+        height: 302px;
+        width: 333px;
+    }
+
+    .section-label {
+        font-size:28px;
+    }
+    
     #nav {
         width: 100%;
+        height:75px;
     }
     #content {
         width: 882px;
         margin-left: 20px;
-        height: 160%;
+        height: 100%;
         width:96%;
     }
+
+    #content > p {
+        font-size: 1em;
+        line-height: 21px;
+    }
+
     .nav-links {
+        font-size: 1em;
         margin-right: 66px;
     }
 
     .nav-name {
+        font-size: 2em;
         margin-left: 22px;
     }
     .port-img {
@@ -347,7 +379,7 @@ form {
     #content {
         margin-top: 20px;
         width: 93%; 
-        height: 100%;
+        height: 106%;
     }
     hr {
         margin:2px;
